@@ -1,0 +1,808 @@
+{
+  "updated": "2026-11-15",
+  "provenance": "Observed professional LinkedIn profile content. evidenceStatus=profile-reported means supported by the profile; verified=false means not independently checked against the issuer, not unsupported.",
+  "certifications": [
+    {
+      "name": "Google Cybersecurity",
+      "issuer": "Coursera",
+      "issued": null,
+      "credentialUrl": null,
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Agentic AI in Action",
+      "issuer": "O'Reilly",
+      "issued": "Nov 2025",
+      "credentialUrl": "https://www.credly.com/badges/85682c07-d008-4b79-8299-4831e702ec42/linked_in_profile",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Thinking Creatively",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2025",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/cbfae03665a697aa7274c1875e705a67174259780630c3988ac85cc9b2721fd1/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "AI & Cybersecurity 2025",
+      "issuer": "O'Reilly",
+      "issued": "Sep 2025",
+      "credentialUrl": "https://www.credly.com/badges/81b0d1e1-1dbb-4ec2-93e8-615b513fa8c3/linked_in_profile",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "AI Agents with LangGraph",
+      "issuer": "O'Reilly",
+      "issued": "Sep 2025",
+      "credentialUrl": "https://www.credly.com/badges/f98d756f-4e16-4e5a-bf48-e3e77a53cf6b/linked_in_profile",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Securing Generative AI",
+      "issuer": "O'Reilly",
+      "issued": "Sep 2025",
+      "credentialUrl": "https://www.credly.com/badges/a7e6bf44-9d68-45b5-ae68-05775bbe7e73/linked_in_profile",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "LinkedIn's AI Academy",
+      "issuer": "LinkedIn",
+      "issued": "Feb 2025",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/c2da102365c2ab825570e4e719bcbd28c25502e85f6bd36426c2a4a446b21366/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Aligning Diet and Exercise",
+      "issuer": "National Academy of Sports Medicine (NASM)",
+      "issued": "Oct 2024",
+      "credentialUrl": "https://coursera.org/share/c8f614d3414199dd31a41f1d13584a60",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applied ChatGPT for Cybersecurity",
+      "issuer": "Infosec",
+      "issued": "Oct 2024",
+      "credentialUrl": null,
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to Cybersecurity Tools & Cyberattacks",
+      "issuer": "IBM",
+      "issued": "Oct 2024",
+      "credentialUrl": "https://coursera.org/share/2059e5a099d2e14b107235fb3fc1794d",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "issuer": "LearnKartS",
+      "issued": "Oct 2024",
+      "credentialUrl": "https://coursera.org/share/8fbdf6eb7d2e05f5b89c7a153d8043f4",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Infrastructure as Code with Terraform",
+      "issuer": "Google",
+      "issued": "Jan 2025",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/4IZGX0JQABKV",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Web Hacking Expert - Full-Stack Exploitation Mastery",
+      "issuer": "Packt",
+      "issued": "Dec 2024",
+      "credentialUrl": "https://coursera.org/share/721e3e28c958d4cde811266746fdf638",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Practical Creativity for Everyone",
+      "issuer": "LinkedIn",
+      "issued": "Feb 2025",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/d48f1aa36e225e158316302abd490f047115fe6c12f1ee053c9f6ba1d57b68b0/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "How to Boost Your Productivity with AI Tools",
+      "issuer": "LinkedIn",
+      "issued": "Feb 2025",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/dea2dc3074454c4971572f090d0be1bbb1a34fbbb73dc506ad6d396fff4730d8/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to AI-Native Vector Databases",
+      "issuer": "LinkedIn",
+      "issued": "Feb 2025",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/33e3575e70a37398a4e9204164a6b530bb23288c39d69cd3fa5219b192eded32/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Google Cybersecurity Specialization",
+      "issuer": "Google",
+      "issued": "Oct 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/5PWCS4N1EBT5",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Java Testing Specialization",
+      "issuer": "LearnQuest",
+      "issued": null,
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/2WW95A7PCBLM",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to Generative AI Learning Path Specialization",
+      "issuer": "Google Cloud",
+      "issued": "Jul 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/ASBGDP2AQVX9",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Parameterized and Dynamic Testing in JUnit",
+      "issuer": "LearnQuest",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/records/E6ZF5N7EG8JC",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Overview of JUnit Testing",
+      "issuer": "LearnQuest",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/records/9SQSYLTTQQYS",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Foundations of Cybersecurity",
+      "issuer": "Google",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/records/UKLD8LKAC9A3",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to Generative AI Learning Path Specialization",
+      "issuer": "Google Cloud",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/specialization/ASBGDP2AQVX9",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "The Science of Well-Being for Teens",
+      "issuer": "Yale University",
+      "issued": "Jul 2024",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/records/L5HAMLZKFJ9Y",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "PostgreSQL Essential Training",
+      "issuer": "LinkedIn",
+      "issued": "Jun 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/4fa4859b55380bdaa9a6ec1ebe3138e9c6613a12f4b76e3e23f3998a38318d60/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Learning Apache Tomcat",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/cf5e89e692c253f77a52f69d792cea8eef4a43467e2ffb91b5a032d4480076e6/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "AI Productivity Hacks to Reimagine Your Workday and Career",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/dc0d7f4cf94730d0a946d04d342d34cc7c26a01ed5e830669fc26471f269936a/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to Prompt Engineering for Generative AI",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/925229588196b7e9a6d705110d28225094b143c96cfd22ce51211e9ab7085a74/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Software Testing Tips Weekly",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/717c6706b92c34b460a1c445cbd0ef6ac80c65659bf0a88fadb4559afc35675d/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Agile Testing",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/32f6155d45ea96c03c5fb09f4effc2a7201e4b48e3adb11c7fbe1daad585bc40/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Succeeding in Software Testing",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/026e4e8fa539c429cd95e46e98eccd1ab0ed64a8c8d1867030bcb367a6731f2d/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "LambdaTest Software Testing Professional Certificate",
+      "issuer": "LambdaTest is now TestMu AI",
+      "issued": "Jun 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/b44b307a58b63d633f73db3a6255368d363e4d0dbb8c74c3e01d06bff5feb6dc/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "How to Research and Write Using Generative AI Tools",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/59cfd67c8df6bd64c278ca227a09a15d903c107ae32d48ccf10055cadbe5a9ae/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Amplify Your Critical Thinking with Generative AI",
+      "issuer": "LinkedIn",
+      "issued": "Jan 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/f6f21211c31b0c404e47056af1c1041841563e0f2ff84b1881c6dde8d27ac629/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "MATLAB Essential Training",
+      "issuer": "LinkedIn",
+      "issued": "Feb 2024",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/538ac209ea4a607393c66acf1ee9ad29cb061b5df140f4bb88f7e2cc66a5f596/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Mastering Self-Motivation",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/a53b69d1ae632df926e0fe0921db30408337c709eb5e63e49ea6fd84ff283b6c/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "A Day In The Life of a Data Scientist",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/ba1cc7cfefe78eb23b04105c249687368a8e33d9a5900e66b59f51f2b026c6d5/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Gaining Skills with LinkedIn Learning",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/aeb9184173f10fbd1a85c3d14da7947de773b48cefe9a58794480d1f4579ed74/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Habits to Win Every Day",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/17b67a602a1d8940a9bb3e39eae600dc726b3e7e3e678eda234bb33bc83344db/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Giving Computers Vision",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/0f67d4d1ea6122875645c7f817ca9b9744e5ecbfc936cd37c0bc7be83b360129/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "One-Minute Habits for Success",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/dddcada9488d0ab23415cf441112ba177e58ac5798a655612241f3b1a6c861c5/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Data Storytelling Basics",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/7f0e39266026a4fdb0600173ba042ba92dd459680a05ab21247d358ba6b10b98/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Nano Tips for Leveraging Technical Prompts Using ChatGPT with Lachezar Arabadzhiev",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/4771cc3ec8669bc3bf9144a97e86a4ccf5154c29fe59ad1b6e8f10e49fd2ddf1/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Eight Ways You Block Your Success",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/1f8aa0830d12afa3ba75f29d9d0bb6ea6c73068aff0fce490944a51c318958ad/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Streamlining Your Work with Copilot (formerly Bing Chat/Bing Chat Enterprise)",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/6e3331c9d705213699dafd10d41ae33ea3174f2a5852a3e0b2a2d05bcd38743c/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Microsoft 365 Copilot First Look",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/d25d51dcbd20f2a4890ccf14f6b65268e7d7552f1aa3836c2ec81ae1f1e0b15f/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Developing Your Emotional Intelligence",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/7e7a2e6afc5298e4b039312ab8ef71c69e6f6f4b8793bb969c127448f01d2cde/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "How to Get Things Done Ahead of Deadlines",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/f101d0f194279d0473ed728aebf1a7a0373e8b383a9eb54ee8a728e6ad9614ce/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "How to Become Indistractable",
+      "issuer": "LinkedIn",
+      "issued": null,
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/79033889b0e181197567d446ec8354b6e334cd87615bc558607d52177a259287/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Making Quick Decisions",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/37549bc135318ef214df5a911f8aba636aac78a4f6a8c35d78eadc8008f388b0/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Including Sustainability in Your Cloud Strategy",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/77006119b1603cff0d382f50ddef940c5a77947bffbf9c0fc42e2f2796b6df4f/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Improving Your Judgment for Better Decision-Making",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/ec8107d93b5d9b4e6e58bebf76b5f999d15f462365ba0659ec5746aa53820034/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Data, Economic Modeling, and Forecasting with Stata",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/5cea74ccd7adbcca26644c3a0814ac53512347f1b58279f019378513f2e265a1/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Good Vibes, Good Life (Blinkist Summary)",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/4031ceb75868ab9c2a66092edc3828f4685be13b5cdbf2e224849449b03c8199/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Extreme Focus for Effective Performance",
+      "issuer": "LinkedIn",
+      "issued": "Oct 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/9f9047afd87bab34e34a3d882cae6abead3503de3680d683f2e62d981c0fadca/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "What Is Generative AI?",
+      "issuer": "LinkedIn",
+      "issued": "Nov 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/b2d27c99dc295b6293c512f5b5b06b270296f285764edce93ce01fe268cd9f78/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Closing the Green Skills Gap to Power a Greener Economy and Drive Sustainability",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/067f266f75069392b034b1a0efeabf3db7dc2c4884fdf6a881504411edf23ca7/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Sustainability as an Innovation Opportunity",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/9b33a0109843632aa0ea58dcaccfe296012d00ebe8bf233f5142ea392fccd32e/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Top 10 Rules for Highly Effective Leadership",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/54c5f22e47ff51e1347907ad43035b33ceea9e9f5d4b95c1740b27448f8f74e9/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "The Power of Visualization to Enhance Performance and Well-being",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/e28fe1c7dbb019d91aa73e74ad52132868899c849d6bf182ad2dba2ab3c49098/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "The Non-Technical Skills of Effective Data Scientists",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/98417ad29b4f465eacdba85b1d09e9d262773a92f63419b6172a2d8229635415/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Ethics in the Age of Generative AI",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/e443cd0a25fce721ef74557c10bb2ef5087259520a0a08a02ab4e138d54ad4b8/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Career Essentials in Generative AI by Microsoft and LinkedIn",
+      "issuer": "Microsoft",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/e37ac208b8478e1281fd174ffdf07b7ab225c6d764a531cd69e392e62c654bd8/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Introduction to Artificial Intelligence",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/77b50f0fa28d480479a25df55c550fc2d4b6f3553b23487326d23901308279f9/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Advance Your Skills in Deep Learning and Neural Networks",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/0de427dc58d668b2da3cc1f791a7e0f6d5f30ffee10e7520d9e212658e5fcbd9/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Training Neural Networks in Python",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/f28c1614a478cadccca22f91ef559d60e5b706cf7d3e9c4e0b7abae7b1181a52/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Training Neural Networks in C++ (2021)",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/3f1cba2a4cc7da14405649f98ec42bc2c852f6f7059bb0e61f2a1dbfcbcb32d8/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Reinforcement Learning Foundations",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/29c0e858d6dc560bfd2fb3fc432d6bd7b0b23a3a49fb90602a8902b5a9810ddd/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Advanced NLP with Python for Machine Learning",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/3a863060de97618c3105aecffd25921a9b0c051d1a8736c9c1d25285dbe40cea/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "NLP with Python for Machine Learning Essential Training",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/d45dc97cc1b854dc2a335bd6c65e7c248256f679563c51b8b5a6cf30e88ecb9a/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Building Computer Vision Applications with Python",
+      "issuer": "LinkedIn",
+      "issued": "Dec 2023",
+      "credentialUrl": "https://www.linkedin.com/learning/certificates/fcae4e20abad9c65ece7581415beb09f60a6297f17908e5101ce94d8f4fb454e/",
+      "source": "linkedin-certifications.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vishwakarma Institute of Technology",
+      "degree": "Bachelor of Technology",
+      "field": "Electronics and Telecommunication Engineering",
+      "dates": "Dec 2021 ? May 2025",
+      "grade": "8.84",
+      "description": "Completed 8 Engineering Design and Innovation projects and 20+ course projects. Volunteered as Police Mitra during Ganesh festival.",
+      "source": "linkedin-education.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "institution": "Army Public School",
+      "degree": "HSC",
+      "dates": "Mar 2020 ? Mar 2021",
+      "grade": "90.80%",
+      "source": "linkedin-education.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "institution": "Army Public School",
+      "degree": "SSC",
+      "dates": "Apr 2018 ? Jul 2019",
+      "grade": "91.83%",
+      "source": "linkedin-education.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Applause: Agentic AI: Visualization and Data Optimization",
+      "issuer": "PTC",
+      "issued": "Aug 2026",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applause: BE BOLD",
+      "issuer": "PTC",
+      "issued": "Aug 2026",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applause: Team PTC",
+      "issuer": "PTC",
+      "issued": "Feb 2026",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applause: Team PTC",
+      "issuer": "PTC",
+      "issued": "Aug 2025",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "PTC Products Spotlight Winner Q3 2025",
+      "issuer": "PTC",
+      "issued": "Aug 2025",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "TCS HackQuest 9",
+      "issuer": "TCS",
+      "issued": "Mar 2025",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applause: Team PTC",
+      "issuer": "PTC",
+      "issued": "Jan 2025",
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Applause: Great Start",
+      "issuer": "PTC",
+      "issued": null,
+      "source": "linkedin-honors.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Antigravity CLI",
+      "date": "Mar 2026 – Mar 2026",
+      "description": "Antigravity CLI is a local OpenAI-compatible API server and web dashboard that unlocks premium AI models.Problem it solves: Many developers do not have the budget for expensive API keys. This tool allows developers to use their existing Google One AI Premium subscription to access top-tier models like Claude Opus and Gemini Pro directly in their favorite tools (personal projects, terminal, open claw, basically anywhere that accepts openai compatiple apis) without paying per-token API costs.Features:- Full Web Dashboard & API Tester- Multi-Account Rotation (combines total quota)- Real-time API Streaming- 19 Live Models as offered by antigravityDisclaimer & Warning: This project is for personal and educational use only. It requires an active Google One AI Premium subscription and relies on local OAuth credentials. Do not share your keys.json file.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Vision-Based Humanoid Robotic Palm For Amputee Person Using Deep Learning",
+      "date": "Sep 2023 – Dec 2023",
+      "description": "Built a vision-based humanoid robotic palm that mirrors human hand gestures in real time, aimed at low-cost prosthetic assistance for amputees.A camera feed is processed by a deep learning model that classifies hand landmarks and gestures; the predicted pose drives servo actuators on a 3D-printed palm through a microcontroller. Published as an IEEE paper (Mar 2024).Tech: Python, OpenCV, deep learning / neural networks, Raspberry Pi, servo control.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Vinsta - Social Media App using MERN Stack",
+      "date": "Sep 2023 – Oct 2023",
+      "description": "I successfully completed the development of \"Vinsta,\" a social media platform, as a course project for a web development course. This project, inspired by the YouTube video tutorial by CodersNeverQuit, was constructed using the MERN stack (MongoDB, Express.js, React, and Node.js) and using Cloudinary plaform for storing the media(photos) on cloud. \"Vinsta\" encompasses essential features such as user registration, profile management, personalized news feeds, post creation, social connections, likes, and comments. Frontend used \"materialize-css\"for styling and on the server side, dependencies like \"bcryptjs,\" \"express,\" \"jsonwebtoken,\" \"mongoose,\" and \"nodemon\" ensured the seamless operation . This project provided me with valuable hands-on experience in working with the MERN stack, which is widely employed in modern web application development. I am immensely thankful to Prof. Archana Choudhary for her guidance and for providing me with the opportunity to work on this project.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Farmers Buddy -JAVA desktop application",
+      "date": "Apr 2023 – May 2023",
+      "description": "Successfully developed the \"Farmers Buddy\" Java desktop application as part of my Object-Oriented Programming course project.This application uses MySQL and JDBC connectivity for the backend and Java Swing Framework for designing the frontend. It provides comprehensive information about government policies, marketplace updates, and soil conditions. Additionally, it features a marketplace where farmers can directly buy and sell their crops, eliminating intermediaries and boosting profitability.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Inventory Management and Monitoring System",
+      "date": "Apr 2023 – May 2023",
+      "description": "Inventory Management and Monitoring System project combines smart hardware and software to streamline inventory management. Using a Raspberry Pi, it tracks inventory levels with ultrasonic sensors, calculates bills, and sends email updates to customers. The NodeMCU ESP8266 adds real-time monitoring and alerts via ThingSpeak and IFTTT. With an Arduino UNO, it ensures inventory safety by detecting unusual temperature, humidity, and smoke levels, activating fans, and sending alerts. Being open-source, it's affordable and encourages collaboration. This system improves efficiency, reduces waste, and optimizes inventory management for businesses of all sizes.Key Features:Raspberry Pi-based inventory trackingNodeMCU ESP8266 for real-time monitoring and alertsArduino UNO-based safety monitoringOpen-source for transparency and affordability",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Smart SoS system",
+      "date": "Apr 2023 – May 2023",
+      "description": "Designed a Smart SOS device for personal safety that transmits an emergency alert with live GPS coordinates to pre-registered contacts and authorities at the press of a button.Built on an embedded microcontroller with GSM and GPS modules, with low-power operation for extended standby. Work was published as an IEEE paper, \\\"Safety with Technology: A Smart SOS Device\\\".Tech: Embedded C, Arduino, GSM/GPS modules, IoT.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Travel Management System - Java MySql desktop application",
+      "date": "Mar 2023 – Apr 2023",
+      "description": "I'm excited to share a major accomplishment from my DBMS coursework. I developed a Java-based Travel Management System, and it played a crucial role in my learning journey. The project focused on integrating MySQL for data management.Throughout this project, I applied key DBMS concepts in practical ways, including:Data Manipulation Language (DML) for data operations.Data Definition Language (DDL) for schema management.Functions to perform specific tasks.Normalization for efficient data organization.Triggers for automated actions.Joins for combining data from different tables.Subqueries for detailed data retrieval. This hands-on experience was incredibly valuable, providing real-world insights into DBMS concepts and their applications. It's been a rewarding part of my education.Features implementwed in this project were :Booking for trains, buses, and flights.Secure payment processing.Hotel reservations.Destination exploration.User profiles.A user-friendly dashboard for efficient travel planning and management.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    },
+    {
+      "name": "Car Crash Data Recorder (CDR)",
+      "date": "Sep 2022 – Nov 2022",
+      "description": "Car Crash Data Recorder (CDR) is an innovative solution aimed at enhancing road safety and accident analysis. It collects real-time data related to driving parameters and safety, automatically detecting accidents and alerting emergency services. With a focus on engineering and design innovation, this project offers a valuable tool to improve road safety and reduce the human and economic costs of accidents.Key Features:Real-time data collection for driving parameters and safetyAutomatic accident detection with immediate alert to emergency servicesGPS and GSM integration for precise location reportingData storage on EEPROM for accident cause analysisThis project was done as a part of course : Engineering Design and Innovation, with an aim for offering a customizable solution for safer roads.",
+      "source": "linkedin-projects-before.yml",
+      "verified": false,
+      "evidenceStatus": "profile-reported"
+    }
+  ]
+}

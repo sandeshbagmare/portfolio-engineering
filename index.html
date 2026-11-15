@@ -1,325 +1,743 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e8eddf" />
+    <title>Sandesh Bagmare — A journey through useful AI</title>
     <meta
       name="description"
-      content="Sandesh Bagmare - Associate Software Analyst at PTC ThingWorx AI R&D"
+      content="Hop into Sandesh Bagmare's engineering journey. Agentic AI, Python, privacy, developer tools and a few interesting detours."
     />
-    <title>Sandesh Bagmare - AI & software engineering</title>
-    <link rel="canonical" href="https://sandeshbagmare.github.io/portfolio-engineering/" />
+    <link
+      rel="canonical"
+      href="https://sandeshbagmare.github.io/portfolio-engineering/"
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Sandesh Bagmare" />
-    <meta property="og:title" content="Sandesh Bagmare | AI &amp; software engineering" />
-    <meta property="og:description" content="Agent infrastructure, privacy boundaries, persistent state, and developer tools. Explore selected projects and engineering decisions." />
-    <meta property="og:url" content="https://sandeshbagmare.github.io/portfolio-engineering/" />
-    <meta property="og:image" content="https://sandeshbagmare.github.io/portfolio-engineering/social-preview.png" />
+    <meta
+      property="og:title"
+      content="Sandesh Bagmare — A journey through useful AI"
+    />
+    <meta
+      property="og:description"
+      content="Agent infrastructure, privacy boundaries, developer tools. Take the scenic route through my work."
+    />
+    <meta
+      property="og:url"
+      content="https://sandeshbagmare.github.io/portfolio-engineering/"
+    />
+    <meta
+      property="og:image"
+      content="https://sandeshbagmare.github.io/portfolio-engineering/social-preview.png"
+    />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sandesh Bagmare: thoughtful engineering for useful AI." />
+    <meta
+      property="og:image:alt"
+      content="Sandesh Bagmare ? an engineering roadtrip with an original ochre truck and green landscape"
+    />
+    <meta
+      name="twitter:title"
+      content="Sandesh Bagmare ? A journey through useful AI"
+    />
+    <meta
+      name="twitter:description"
+      content="Agent infrastructure, privacy, developer tools. Explore the engineering journey."
+    />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sandesh Bagmare | AI &amp; software engineering" />
-    <meta name="twitter:description" content="Agent infrastructure, privacy boundaries, persistent state, and developer tools." />
-    <meta name="twitter:image" content="https://sandeshbagmare.github.io/portfolio-engineering/social-preview.png" />
+    <meta
+      name="twitter:image"
+      content="https://sandeshbagmare.github.io/portfolio-engineering/social-preview.png"
+    />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
+    <script defer src="assets/vendor/gsap.min.js"></script>
+    <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+    <script defer src="assets/vendor/lenis.min.js"></script>
+    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <a class="skip" href="#main">Skip to content</a>
-    <header>
-      <a class="brand" href="#main">sb<span>.</span> Sandesh Bagmare</a>
-      <nav>
-        <a href="#work">Work</a><a href="#approach">Approach</a
-        ><a href="#about">About</a><a href="#contact">Let's talk &nearr;</a>
+    <a class="skip" href="#about">Skip the scenery</a>
+    <header class="header">
+      <a class="logo" href="#home" aria-label="Sandesh Bagmare home"
+        >s<span>b</span><i>®</i></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#experience">Experience</a><a href="#education">Education</a>
+        <a href="#recognition">Recognition</a
+        ><a href="#projects">Selected work</a><a href="#notebook">Notebook</a
+        ><a href="#contact" class="contact-nav">Say hello <span>↗</span></a>
       </nav>
+      <button
+        id="theme"
+        class="icon-button"
+        aria-label="Switch to night scenery"
+        aria-pressed="false"
+      >
+        ☼
+      </button>
     </header>
-    <main id="main">
-      <section class="hero wrap">
-        <div>
-          <p class="eyebrow">Software engineer &middot; Pune, India</p>
-          <h1>Useful AI starts with<br />thoughtful engineering.</h1>
-          <p class="lead">
-            I build the systems around AI agents: how they use tools, remember
-            their work, and handle data responsibly.
+    <main>
+      <section class="hero" id="home" aria-labelledby="name">
+        <div class="hero-top">
+          <p>
+            <span class="live-dot"></span> Engineer, builder, curious human.
           </p>
-          <p class="current">
-            Associate Software Analyst at <b>PTC</b><br /><span
-              >ThingWorx AI R&amp;D</span
-            >
+          <p>
+            Pune, India
+            <span class="coordinates">18.5204° N &nbsp; 73.8567° E</span>
           </p>
-          <a class="button" href="#work">Explore my work &searr;</a
-          ><a class="link" href="https://github.com/sandeshbagmare"
-            >GitHub &nearr;</a
-          >
         </div>
-        <div class="hero-card">
-          <small>INSIDE THE SYSTEM</small>
-          <div class="flow">
-            <span>A useful question</span><b>&darr;</b
-            ><strong
-              >Agent workflow<br /><i
-                >Reason &middot; Act &middot; Check</i
-              ></strong
-            ><b>&darr;</b>
-            <div>
-              <span>Tools &amp; privacy</span><span>Persistent state</span>
-            </div>
-            <em>&#10003; Engineering makes the difference.</em>
+        <h1 id="name">
+          <span>Sandesh</span>
+          <span>Bagmare<span class="name-dot">.</span></span>
+        </h1>
+        <div class="hero-note">
+          <p>Building useful AI.<br />Enjoying the detours.</p>
+          <a href="#projects">See what I'm building <span>↙</span></a>
+        </div>
+        <div
+          id="landscape"
+          class="landscape"
+          role="img"
+          aria-label="An ochre expedition truck travelling through a playful three-dimensional landscape of green hills, trees and clouds."
+        >
+          <img class="scene-poster" src="assets/journey-poster.png" alt="" />
+          <div class="scene-fallback">
+            <span>Take the scenic route.</span>
+            <p>Every good system starts with a little curiosity.</p>
           </div>
-          <a href="#approach">Explore a privacy boundary &darr;</a>
+        </div>
+        <div class="hero-bottom">
+          <div
+            class="scene-controls"
+            role="group"
+            aria-label="Scenic truck controls"
+          >
+            <button id="drive-back" aria-label="Drive truck left">←</button
+            ><button id="drive-forward" aria-label="Drive truck right">→</button
+            ><span>Take a little drive</span
+            ><button
+              id="motion"
+              class="motion-button"
+              aria-label="Pause scenery motion"
+              aria-pressed="false"
+            >
+              Ⅱ
+            </button>
+          </div>
+          <a class="scroll-cue" href="#about"
+            >Scroll to explore <span>↓</span></a
+          >
+          <div class="destination-control">
+            <label for="destination">Choose a destination</label
+            ><select id="destination">
+              <option value="about">Meet Sandesh</option>
+              <option value="experience">The PTC journey</option>
+              <option value="projects">Selected projects</option>
+              <option value="notebook">Research &amp; archive</option>
+              <option value="education">Learning shelf</option>
+              <option value="recognition">Recognition</option>
+              <option value="contact">Say hello</option>
+            </select>
+          </div>
+          <p class="hero-role">
+            Associate Software Analyst<br /><b>PTC · ThingWorx AI R&amp;D</b>
+          </p>
+        </div>
+        <p class="drive-status sr-only" role="status"></p>
+      </section>
+      <section id="about" class="intro section">
+        <div class="route-label">
+          <span>First stop</span><span>A little about me</span>
+        </div>
+        <div class="intro-grid">
+          <h2>
+            Serious about<br />the engineering.<br /><em
+              >Curious about<br />everything else.</em
+            >
+          </h2>
+          <div>
+            <p class="large-copy">
+              Hi, I'm Sandesh. I build software that helps AI agents do useful
+              work in the real world.
+            </p>
+            <p>
+              That means thinking beyond the model: how agents use tools, what
+              they remember, what data they see, and how we know they're
+              working. My public projects explore those questions through Python
+              backends and developer tools.
+            </p>
+            <p>
+              At PTC, I work with the ThingWorx AI R&amp;D team. Before that,
+              electronics, connected hardware, and a few ambitious college
+              projects got me started.
+            </p>
+            <a
+              class="under-link"
+              href="https://www.linkedin.com/in/sandeshbagmare/"
+              >The full story on LinkedIn ↗</a
+            >
+            <div class="skill-line">
+              <span>Python</span><span>LangGraph</span><span>RAG</span
+              ><span>LLM evaluation</span><span>SQL</span
+              ><span>Developer tools</span>
+            </div>
+          </div>
         </div>
       </section>
-      <div class="strip">
-        <div class="wrap">
-          <span>My engineering focus</span><b>Agent infrastructure</b
-          ><b>Python backends</b><b>Developer experience</b>
+      <section id="experience" class="experience-section section">
+        <div class="route-label">
+          <span>The working journey</span><span>PTC · Pune</span>
         </div>
-      </div>
-      <section id="work" class="wrap section">
-        <div class="heading">
+        <div class="section-heading">
+          <h2>Making agents<br />more useful.</h2>
+          <p>
+            From infrastructure foundations to agent workflows.<br />Experience
+            described on my public profile.
+          </p>
+        </div>
+        <div class="experience-layout">
+          <aside class="route-aside">
+            <span class="route-pin">●</span>
+            <p>Same curiosity.<br />New terrain.</p>
+            <span class="route-line"></span
+            ><span class="route-pin bottom-pin">●</span>
+          </aside>
           <div>
-            <p class="eyebrow">Selected public projects</p>
-            <h2>From a real problem<br />to a working system.</h2>
+            <article class="job">
+              <div class="job-top">
+                <span>Jul 2025 — Present</span><span>Full-time · Hybrid</span>
+              </div>
+              <h3>Associate Software Analyst</h3>
+              <p class="job-team">ThingWorx AI R&amp;D · PTC</p>
+              <div class="job-grid">
+                <div>
+                  <h4>Agentic framework</h4>
+                  <p>
+                    Developing a multi-agent proof of concept using LangGraph
+                    and a Plan-and-Act approach for the ThingWorx AI Assistant,
+                    with agent and Agent-to-Agent capabilities.
+                  </p>
+                </div>
+                <div>
+                  <h4>Evaluation &amp; retrieval</h4>
+                  <p>
+                    Building an agent evaluation framework with Azure AI
+                    Evaluation, DeepEval, custom evaluators and HTML/Allure
+                    reporting. Working on Qdrant-based retrieval, chunking and
+                    hybrid reranking.
+                  </p>
+                </div>
+                <div>
+                  <h4>Developer tooling</h4>
+                  <p>
+                    Engineering a CLI-based Agent Development Kit for automated
+                    agent creation and customization.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="job">
+              <div class="job-top">
+                <span>Jul 2024 — Jun 2025</span><span>Internship</span>
+              </div>
+              <h3>Software Engineering Intern</h3>
+              <p class="job-team">Solution Central &amp; ThingWorx AI · PTC</p>
+              <p>
+                Helm unit tests across four repositories, security remediation
+                for CSP headers and dependencies, PostgreSQL migration
+                verification scripts, and Terraform for PostgreSQL 16 flexible
+                server deployment.
+              </p>
+              <p>
+                Implemented and presented RAG and agentic AI architecture proofs
+                of concept for the ThingWorx AI Assistant.
+              </p>
+            </article>
           </div>
-          <p>Architecture, implementation, and trade-offs behind the code.</p>
         </div>
-        <div class="filters" role="group" aria-label="Filter projects">
-          <button class="active" data-filter="all">
-            All work <span>4</span></button
-          ><button data-filter="infra">Agent infrastructure</button
-          ><button data-filter="tools">Developer tools</button>
+        <p class="source-note">
+          Work summaries are profile-reported. Public projects below are
+          presented separately from confidential employer work.
+        </p>
+      </section>
+      <section id="projects" class="projects-section section">
+        <div class="route-label">
+          <span>A few things I've built</span
+          ><span>Open source &amp; experiments</span>
+        </div>
+        <div class="section-heading">
+          <h2>Interesting problems.<br />Working ideas.</h2>
+          <p>
+            Take a look under the hood.<br />The code tells the rest of the
+            story.
+          </p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter selected projects">
+          <button data-filter="all" class="active" aria-pressed="true">
+            Everything <span>4</span></button
+          ><button data-filter="infra" aria-pressed="false">
+            Agent infrastructure</button
+          ><button data-filter="tools" aria-pressed="false">
+            Developer tools
+          </button>
         </div>
         <p class="sr-only" id="filter-status" role="status"></p>
-        <div class="projects">
-          <article data-cat="infra" class="featured">
-            <div class="art privacy">
-              <small>DEEP AGENTS MCP PRIVACY</small>
-              <div>
-                Raw tool result<br /><b>{ sensitive values }</b
-                ><br />&darr;<strong>Privacy gateway</strong
-                ><br />&darr;<br />Agent receives<br /><b
-                  >{ shape, synthetic examples }</b
-                >
+        <div class="projects-grid">
+          <article class="project-card privacy-card" data-category="infra">
+            <div class="project-visual privacy-visual">
+              <div class="privacy-window">
+                <div class="window-dots">
+                  <span>privacy.gateway</span>
+                </div>
+                <div class="data-row">
+                  <span>Raw tool response</span><b>•••• •••• ••••</b>
+                </div>
+                <div class="gateway-lock">↳<span>Privacy boundary</span>↴</div>
+                <div class="data-row safe">
+                  <span>Agent context</span><code>{ schema, synthetic }</code>
+                </div>
               </div>
+              <span class="project-sticker">Mind the boundary.</span>
             </div>
-            <div>
-              <p class="eyebrow">Privacy &middot; Python &middot; MCP</p>
-              <h3>A boundary between tools and agent context.</h3>
+            <div class="project-info">
+              <span class="project-kind">Python / MCP / Privacy</span>
+              <h3>DeepAgents Data Privacy</h3>
               <p>
-                A separate gateway lets tools work with complete data while the
-                default agent-facing response contains structure and synthetic
-                examples.
+                Let tools work with real data. Give agents structure and
+                synthetic examples, through a separate MCP gateway process.
               </p>
               <details>
-                <summary>Engineering decisions</summary>
+                <summary>The engineering notes <span>+</span></summary>
                 <p>
-                  Preserve tool interfaces, reconstruct responses, and withhold
-                  unsupported content. Stable field names remain visible;
-                  sensitive schemas need a domain-specific allowlist.
+                  Preserves tool interfaces and reconstructs responses,
+                  withholding unsupported content and upstream errors. Stable
+                  field names remain visible; sensitive schemas need an
+                  allowlist. Aggregate and raw passthrough modes explicitly
+                  weaken the default boundary. The repository includes
+                  deterministic demo reports and tests; this site does not run
+                  the gateway.
                 </p>
               </details>
               <a
-                class="link"
                 href="https://github.com/sandeshbagmare/DeepAgents-Data-Privacy"
-                >Explore repository &nearr;</a
+                >Explore the source <span>↗</span></a
               >
             </div>
           </article>
-          <article data-cat="infra">
-            <div class="art sql">
-              <small>LANGGRAPH CHECKPOINT SAVER</small>
-              <div>
-                Graph state<br />&darr;<br /><b>Checkpoint + writes</b
-                ><br />&darr;<br />SQL Server / Azure SQL
+          <article class="project-card sql-card" data-category="infra">
+            <div class="project-visual sql-visual">
+              <div class="checkpoint">
+                <span class="checkpoint-tag">thread_id: a_good_idea</span>
+                <div class="checkpoint-line"></div>
+                <div class="checkpoint-labels">
+                  <span>Think</span><span>Act</span><span>Save</span
+                  ><span>Resume</span>
+                </div>
+                <div class="database-block">
+                  <span>≋</span> SQL Server / Azure SQL
+                </div>
               </div>
+              <span class="project-sticker">Pick up where you left off.</span>
             </div>
-            <div>
-              <p class="eyebrow">Persistence &middot; Python &middot; SQL</p>
-              <h3>Agent state for the SQL Server ecosystem.</h3>
+            <div class="project-info">
+              <span class="project-kind">Python / LangGraph / SQL</span>
+              <h3>Memory for the journey</h3>
               <p>
-                A LangGraph checkpoint saver with checkpoint history, pooling,
-                and reproducible database benchmarks.
+                A LangGraph checkpoint saver for SQL Server and Azure SQL.
+                Persistent graph state, pooled connections, and reproducible
+                benchmarks.
               </p>
               <details>
-                <summary>Engineering decisions</summary>
+                <summary>The engineering notes <span>+</span></summary>
                 <p>
-                  Explicit T-SQL locking avoids MERGE for concurrent writes.
-                  Published benchmark results use local SQL Server 2022; Azure
-                  cloud latency will vary.
+                  Sync and async persistence, a four-table model, setup and
+                  thread deletion. Explicit T-SQL locking instead of MERGE for
+                  concurrent writes. Published benchmark results use local SQL
+                  Server 2022, not a hosted Azure SQL endpoint. Repository test
+                  and benchmark claims were not rerun for this portfolio.
                 </p>
               </details>
               <a
-                class="link"
                 href="https://github.com/sandeshbagmare/azure-sql-langraph-checkpoint-saver"
-                >Explore repository &nearr;</a
+                >Explore the source <span>↗</span></a
               >
             </div>
           </article>
-          <article data-cat="tools">
-            <div class="art agent">
-              <small>AGENTICQ</small>
-              <div>
-                &gt; agenticq recommend<br /><i>Discover relevant tooling</i
-                ><br />&gt; agenticq scaffold<br /><i>CLI / Web / VS Code</i>
+          <article class="project-card agent-card" data-category="tools">
+            <div class="project-visual agent-visual">
+              <div class="terminal">
+                <div class="window-dots">
+                  <span>agenticq</span>
+                </div>
+                <code><span>$</span> agenticq recommend</code>
+                <p>Good tools. Less guesswork.</p>
+                <code><span>$</span> agenticq scaffold</code>
+                <div class="terminal-tags">
+                  <span>CLI</span><span>Web</span><span>VS Code</span>
+                </div>
               </div>
+              <span class="project-sticker">Start building sooner.</span>
             </div>
-            <div>
-              <p class="eyebrow">Developer experience &middot; Agent tooling</p>
-              <h3>Less setup between an idea and an agent.</h3>
+            <div class="project-info">
+              <span class="project-kind"
+                >Python / Agent tooling / Developer experience</span
+              >
+              <h3>AgenticQ</h3>
               <p>
-                A discovery and scaffolding tool for agent skills and plugins,
-                with CLI, web, and VS Code interfaces.
+                Discover, recommend, and scaffold agent plugins from project
+                context, through a CLI, web interface, and VS Code integration.
               </p>
               <details>
-                <summary>Engineering decisions</summary>
+                <summary>The engineering notes <span>+</span></summary>
                 <p>
-                  Project context surfaces relevant upstream marketplace
-                  tooling. Recommendations depend on catalog quality and
-                  detection. AgenticQ builds on the
+                  Indexes and classifies an upstream marketplace, then scaffolds
+                  selections for multiple coding harnesses. Built on the
                   <a href="https://github.com/wshobson/agents"
                     >wshobson/agents marketplace</a
-                  >, credited to its authors.
+                  >, with credit to its authors. Recommendation quality depends
+                  on detection and catalog coverage. Source includes workflow
+                  demos and tests.
                 </p>
               </details>
-              <a class="link" href="https://github.com/sandeshbagmare/AgenticQ"
-                >Explore repository &nearr;</a
+              <a href="https://github.com/sandeshbagmare/AgenticQ"
+                >Explore the source <span>↗</span></a
               >
             </div>
           </article>
-          <article data-cat="tools">
-            <div class="art review">
-              <small>SELFREVIEW FOR VS CODE</small>
-              <div>
-                Review changes<br /><del>- context lost</del><br /><b
-                  >+ persistent discussions</b
-                ><br /><mark>Keep reasoning next to code.</mark>
+          <article class="project-card review-card" data-category="tools">
+            <div class="project-visual review-visual">
+              <div class="review-window">
+                <div class="window-dots">
+                  <span>selfreview</span>
+                </div>
+                <code class="removed">− context_lost_between_reviews</code
+                ><code class="added">+ keep_reasoning_with_the_code</code>
+                <div class="review-comment">
+                  <span>↳</span>
+                  <p>
+                    Let's think this through.<small
+                      >Discussion open · Ready to resolve</small
+                    >
+                  </p>
+                </div>
               </div>
+              <span class="project-sticker">A second look, built in.</span>
             </div>
-            <div>
-              <p class="eyebrow">VS Code &middot; React &middot; Code review</p>
-              <h3>A review workflow that stays in the editor.</h3>
+            <div class="project-info">
+              <span class="project-kind">VS Code / React / Code review</span>
+              <h3>SelfReview</h3>
               <p>
-                Diff views, inline discussions, and persistent review comments
-                in VS Code, with optional model feedback.
+                A code review workflow inside the editor: diffs, inline
+                discussions, persistent comments, and optional model-assisted
+                feedback.
               </p>
               <details>
-                <summary>Engineering decisions</summary>
+                <summary>The engineering notes <span>+</span></summary>
                 <p>
-                  Connect Git diffs, threaded discussions, and exports. Provider
-                  selection matters when sending code context to an external
-                  model.
+                  Git diff navigation, threaded discussions and Markdown
+                  exports, with optional provider integration. External model
+                  review sends supplied code context to the selected provider.
+                  Source and setup documentation are linked; Marketplace
+                  availability is not asserted.
                 </p>
               </details>
-              <a
-                class="link"
-                href="https://github.com/sandeshbagmare/SelfReview-VSCode"
-                >Explore repository &nearr;</a
+              <a href="https://github.com/sandeshbagmare/SelfReview-VSCode"
+                >Explore the source <span>↗</span></a
               >
             </div>
           </article>
         </div>
-      </section>
-      <section id="approach" class="dark">
-        <div class="wrap section">
-          <div class="heading">
-            <div>
-              <p class="eyebrow">A closer look</p>
-              <h2>Where should the<br />data boundary live?</h2>
-            </div>
-            <p>Step through an illustrative privacy gateway design.</p>
-          </div>
-          <div class="walk">
-            <div>
-              <button class="step active" data-step="0">
-                1 &middot; Call the tool</button
-              ><button class="step" data-step="1">
-                2 &middot; Apply the boundary</button
-              ><button class="step" data-step="2">
-                3 &middot; Return the structure
-              </button>
-            </div>
-            <div class="detail" aria-live="polite" aria-atomic="true">
-              <small id="step-label">AGENT &rarr; UPSTREAM TOOL</small>
-              <h3 id="step-title">A useful tool still needs real context.</h3>
-              <p id="step-text">
-                The agent calls a tool through its familiar name and schema. Raw
-                output stays on the gateway side.
-              </p>
-              <pre id="step-code">
-tool: get_customer_schema
-input: { table: customers }
-route: agent &rarr; gateway &rarr; tool</pre>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="about" class="wrap section about">
-        <div>
-          <p class="eyebrow">The person behind the projects</p>
-          <h2>Curious about AI.<br />Grounded in software.</h2>
-          <p>
-            I'm interested in model-driven workflows meeting practical
-            engineering: backend systems, persistent state, privacy, and tools
-            that make developers' work easier.
-          </p>
-          <a class="link" href="https://www.linkedin.com/in/sandeshbagmare/"
-            >Connect on LinkedIn &nearr;</a
-          >
-        </div>
-        <div class="timeline">
-          <p>
-            <b>Jul 2025 - Present</b><br />Associate Software Analyst &middot;
-            PTC<br /><small>ThingWorx AI R&amp;D</small>
-          </p>
-          <p>
-            <b>Jul 2024 - Jun 2025</b><br />Software Engineering Intern &middot;
-            PTC
-          </p>
-          <p>
-            <b>Education</b><br />B.Tech, Electronics &amp; Telecommunication<br /><small
-              >Vishwakarma Institute of Technology</small
-            >
-          </p>
-        </div>
-      </section>
-      <section class="wrap publications">
-        <p class="eyebrow">Published research</p>
-        <h2>Earlier explorations.</h2>
-        <p>
-          Co-authored research in assistive technology and connected safety.
-        </p>
         <a
-          class="publication"
-          href="https://doi.org/10.1109/ESCI59607.2024.10497297"
-          ><small>IEEE ESCI 2024</small>
-          <h3>
-            Vision-Based Humanoid Robotic Palm for Amputee Person using Deep
-            Learning
-          </h3>
-          <span>Read publication &nearr;</span></a
-        ><a
-          class="publication"
-          href="https://doi.org/10.1109/ICCUBEA58933.2023.10392200"
-          ><small>IEEE ICCUBEA 2023</small>
-          <h3>Safety with Technology: A Smart SOS Device</h3>
-          <span>Read publication &nearr;</span></a
+          class="under-link more-repos"
+          href="https://github.com/sandeshbagmare?tab=repositories"
+          >There's more in the garage. Browse GitHub ↗</a
         >
       </section>
-      <section id="contact" class="contact">
-        <div class="wrap">
-          <p class="eyebrow">Let's connect</p>
-          <h2>Have an interesting<br />engineering problem?</h2>
+      <section id="notebook" class="notebook-section section">
+        <div class="route-label">
+          <span>The notebook</span
+          ><span>Good detours leave something behind</span>
+        </div>
+        <div class="section-heading">
+          <h2>Before agents,<br />there were other ideas.</h2>
+          <p>
+            Coursework, connected hardware, and research.<br />The foundations
+            are part of the story too.
+          </p>
+        </div>
+        <div class="archive-grid">
+          <article>
+            <span>Assistive technology / 2023</span>
+            <h3>A robotic palm that follows your lead.</h3>
+            <p>
+              A vision-based humanoid palm using Python, OpenCV, deep learning,
+              servo control and a microcontroller. Hand gestures became a
+              starting point for low-cost prosthetic assistance.
+            </p>
+            <a href="https://doi.org/10.1109/ESCI59607.2024.10497297"
+              >Co-authored IEEE paper, ESCI 2024 ↗</a
+            >
+          </article>
+          <article>
+            <span>Personal safety / 2023</span>
+            <h3>A little device with an important job.</h3>
+            <p>
+              Smart SOS: an embedded emergency alert device with GSM and GPS,
+              sending location to pre-registered contacts at the press of a
+              button.
+            </p>
+            <a href="https://doi.org/10.1109/ICCUBEA58933.2023.10392200"
+              >Co-authored IEEE paper, ICCUBEA 2023 ↗</a
+            >
+          </article>
+        </div>
+        <details class="archive-details">
+          <summary>Open the project archive <span>+</span></summary>
+          <div class="archive-list">
+            <article>
+              <span>AI writing / Prototype</span>
+              <h4>ConflTechWriter</h4>
+              <p>
+                A LangGraph research-to-article prototype with planning, source
+                discovery, drafting and revision loops. FastAPI backend; Next.js
+                frontend is planned. Automated checking and citations assist
+                review, without guaranteeing correctness.
+              </p>
+              <a href="https://github.com/sandeshbagmare/ConflTechWriter"
+                >Explore the prototype source ?</a
+              >
+            </article>
+            <article>
+              <span>2026</span>
+              <h4>Antigravity CLI</h4>
+              <p>
+                A local OpenAI-compatible API server and dashboard experiment
+                with streaming and account configuration. Educational project;
+                provider permissions and credential handling remain important.
+              </p>
+            </article>
+            <article>
+              <span>2023</span>
+              <h4>Vinsta</h4>
+              <p>
+                MERN-stack social app coursework: profiles, feeds, media and
+                social interactions. Inspired by the CodersNeverQuit tutorial,
+                using Cloudinary and Materialize CSS.
+              </p>
+            </article>
+            <article>
+              <span>2023</span>
+              <h4>Farmers Buddy</h4>
+              <p>
+                Java Swing, MySQL and JDBC coursework exploring agricultural
+                information and a crop marketplace.
+              </p>
+            </article>
+            <article>
+              <span>2023</span>
+              <h4>Inventory Management &amp; Monitoring</h4>
+              <p>
+                Raspberry Pi inventory tracking, ESP8266 monitoring, Arduino
+                safety sensors, and connected notifications.
+              </p>
+            </article>
+            <article>
+              <span>2023</span>
+              <h4>Travel Management System</h4>
+              <p>
+                Java/MySQL desktop coursework applying normalization, joins,
+                subqueries, triggers and data operations to a travel workflow.
+              </p>
+            </article>
+            <article>
+              <span>2022</span>
+              <h4>Car Crash Data Recorder</h4>
+              <p>
+                Embedded data recording, accident detection, GPS/GSM alerts and
+                EEPROM storage, built as an engineering design course project.
+              </p>
+            </article>
+          </div>
+          <p class="source-note">
+            Archive descriptions are profile-reported coursework and personal
+            projects. Capabilities and deployment outcomes have not been
+            independently tested here.
+          </p>
+        </details>
+      </section>
+      <section class="education-section section" id="education">
+        <div class="route-label">
+          <span>Where it started</span><span>Pune, India</span>
+        </div>
+        <div class="education-grid">
+          <h2>Electronics roots.<br />Software routes.</h2>
+          <div>
+            <span class="project-kind">2021 — 2025</span>
+            <h3>Vishwakarma Institute of Technology</h3>
+            <p>
+              Bachelor of Technology<br />Electronics &amp; Telecommunication
+              Engineering
+            </p>
+            <p class="source-note">
+              CGPA 8.84 / 10. Education details from my published profile and
+              portfolio.
+            </p>
+            <div class="school-records">
+              <p>
+                <b>Army Public School / HSC</b><br />Mar 2020 - Mar 2021 /
+                90.80%
+              </p>
+              <p>
+                <b>Army Public School / SSC</b><br />Apr 2018 - Jul 2019 /
+                91.83%
+              </p>
+            </div>
+            <aside class="patent-note">
+              <span class="project-kind">Profile-listed patent</span>
+              <h3>An Inventory Management System</h3>
+              <p>
+                2024/03398 ? Listed as issued December 18, 2024 on LinkedIn.
+                Registry status has not been independently verified.
+              </p>
+              <a
+                class="under-link"
+                href="https://www.linkedin.com/in/sandeshbagmare/details/patents/"
+                >View profile record ?</a
+              >
+            </aside>
+            <div class="learning-block">
+              <span>Still collecting new perspectives.</span>
+              <h3>Always a student.</h3>
+              <p>
+                Agent frameworks, cloud infrastructure, cybersecurity, and the
+                fundamentals underneath them.
+              </p>
+              <button class="text-button" id="open-certifications">
+                Explore learning &amp; certifications <span>↗</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="recognition" class="recognition-section section">
+        <div class="route-label">
+          <span>A few milestones</span><span>Recognition along the way</span>
+        </div>
+        <div class="section-heading">
+          <h2>Good work is<br />a team sport.</h2>
+          <p>
+            Awards listed on my LinkedIn profile.<br />Issuer records are not
+            independently verified here.
+          </p>
+        </div>
+        <div class="awards-list">
+          <article>
+            <span>PTC / Aug 2026</span>
+            <h3>Applause: Agentic AI: Visualization and Data Optimization</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Aug 2026</span>
+            <h3>Applause: BE BOLD</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Feb 2026</span>
+            <h3>Applause: Team PTC</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Aug 2025</span>
+            <h3>Applause: Team PTC</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Aug 2025</span>
+            <h3>PTC Products Spotlight Winner Q3 2025</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>TCS / Mar 2025</span>
+            <h3>TCS HackQuest 9</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Jan 2025</span>
+            <h3>Applause: Team PTC</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+          <article>
+            <span>PTC / Date not listed</span>
+            <h3>Applause: Great Start</h3>
+            <p>Profile-reported recognition</p>
+          </article>
+        </div>
+        <details class="archive-details">
+          <summary>More team recognition <span>+</span></summary>
+          <p>
+            Applause: Team PTC — February 2026, August 2025 and January 2025.
+            Applause: Great Start — onboarding recognition, date not shown.
+          </p>
+          <p class="source-note">
+            Some recognition records require company sign-in; no private award
+            messages are reproduced.
+          </p>
+        </details>
+      </section>
+      <section id="contact" class="contact-section section">
+        <div class="route-label">
+          <span>Next stop?</span><span>Let's figure it out.</span>
+        </div>
+        <p>Have an interesting problem, a good idea,<br />or just a hello?</p>
+        <h2>Let's build<br />something useful<span>↗</span></h2>
+        <div class="contact-bottom">
           <a class="email" href="mailto:sandeshbagmare2110@gmail.com"
-            >sandeshbagmare2110@gmail.com &nearr;</a
+            >sandeshbagmare2110@gmail.com</a
           >
+          <div>
+            <a href="https://github.com/sandeshbagmare">GitHub ↗</a
+            ><a href="https://www.linkedin.com/in/sandeshbagmare/"
+              >LinkedIn ↗</a
+            >
+          </div>
         </div>
       </section>
     </main>
-    <footer class="wrap">
-      <a class="brand" href="#main">sb<span>.</span> Sandesh Bagmare</a
-      ><span>Built with intent.</span><a href="#main">Back to top &uarr;</a>
+    <footer>
+      <a href="#home" class="logo">s<span>b</span><i>®</i></a>
+      <p>Built with curiosity. Made to be explored.</p>
+      <a href="#home">Back to the scenery ↑</a>
     </footer>
+    <dialog id="certification-dialog" aria-labelledby="cert-title">
+      <div class="dialog-head">
+        <div>
+          <span class="project-kind">The learning shelf</span>
+          <h2 id="cert-title">Always in progress.</h2>
+        </div>
+        <button id="close-certifications" aria-label="Close certifications">
+          ×
+        </button>
+      </div>
+      <p>
+        Selected courses and credentials listed in my public profile or previous
+        portfolio. Credential verification varies; browse the source profile for
+        individual records.
+      </p>
+      <label for="cert-search">Find a topic or provider</label
+      ><input
+        id="cert-search"
+        type="search"
+        placeholder="Try LangGraph, security, cloud..."
+      />
+      <p id="cert-count" role="status"></p>
+      <div id="cert-list"></div>
+      <a
+        class="under-link"
+        href="https://www.linkedin.com/in/sandeshbagmare/details/certifications/"
+        >View credential records on LinkedIn ↗</a
+      >
+    </dialog>
   </body>
 </html>
