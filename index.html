@@ -276,11 +276,13 @@
         </div>
         <div class="filters" role="group" aria-label="Filter selected projects">
           <button data-filter="all" class="active" aria-pressed="true">
-            Everything <span>4</span></button
+            Everything <span>6</span></button
           ><button data-filter="infra" aria-pressed="false">
             Agent infrastructure</button
           ><button data-filter="tools" aria-pressed="false">
             Developer tools
+          </button><button data-filter="systems" aria-pressed="false">
+            Applied systems
           </button>
         </div>
         <p class="sr-only" id="filter-status" role="status"></p>
@@ -445,6 +447,91 @@
               </details>
               <a href="https://github.com/sandeshbagmare/SelfReview-VSCode"
                 >Explore the source <span>↗</span></a
+              >
+            </div>
+          </article>
+          <article class="project-card trading-card" data-category="systems">
+            <div class="project-visual agent-visual">
+              <div class="terminal">
+                <div class="window-dots"><span>coinswitch.scalping.lab</span></div>
+                <code><span>01</span> Replay a market session</code>
+                <p>Inspect fills, fees and the audit trail.</p>
+                <code><span>02</span> Keep risk deterministic</code>
+                <div class="terminal-tags">
+                  <span>Replay</span><span>PAPER</span><span>SQLite</span>
+                </div>
+              </div>
+              <span class="project-sticker">Research before exposure.</span>
+            </div>
+            <div class="project-info">
+              <span class="project-kind">Python / FastAPI / React / Trading research</span>
+              <h3>CoinSwitch Scalping Lab</h3>
+              <p>
+                A local trading research application for repeatable replay and
+                read-only market-feed PAPER sessions, with durable ledgers and
+                a dashboard for inspecting decisions.
+              </p>
+              <details>
+                <summary>Architecture &amp; readiness <span>+</span></summary>
+                <p>
+                  React dashboard → authenticated FastAPI API → a single writer
+                  and SQLite ledger. Replay or bounded REST market snapshots
+                  feed deterministic strategy and risk checks; persisted fills,
+                  fees and audit records support restart recovery. Optional AI
+                  explains results outside trade authority and has no exchange tools.
+                </p>
+                <p>
+                  Replay and PAPER use simulated fills and fees. A guarded live
+                  path exists, but account permissions, real fees and order
+                  contracts still need credential-backed verification. Live
+                  trading readiness and profitability are not established.
+                  The public guide explains the local app; full source remains private.
+                </p>
+              </details>
+              <a href="https://sandeshbagmare.github.io/coinswitch-scalping-guide/"
+                >Read the project guide <span>↗</span></a
+              >
+            </div>
+          </article>
+          <article class="project-card astrology-card" data-category="systems">
+            <div class="project-visual sql-visual">
+              <div class="privacy-window">
+                <div class="window-dots"><span>astrology.evidence</span></div>
+                <div class="data-row"><span>Chart calculation</span><b>Declared method</b></div>
+                <div class="gateway-lock">↓<span>Source passage</span>↓</div>
+                <div class="data-row safe"><span>AI interpretation</span><code>Evidence + limits</code></div>
+              </div>
+              <span class="project-sticker">Keep the evidence visible.</span>
+            </div>
+            <div class="project-info">
+              <span class="project-kind">Python / FastAPI / PostgreSQL / Qdrant</span>
+              <h3>Astrology Evidence</h3>
+              <p>
+                A working local application that keeps chart calculations,
+                retrieved source passages and AI interpretations distinct,
+                so readers can inspect the reasoning and its limits.
+              </p>
+              <details>
+                <summary>Architecture &amp; readiness <span>+</span></summary>
+                <p>
+                  Jinja2/HTMX server UI → FastAPI → PostgreSQL for accounts,
+                  profiles and application state. Chart calculations stay
+                  separate from rights-gated source retrieval through Qdrant
+                  and a bounded reading workflow. Privacy jobs handle retention
+                  and deletion; AI and embeddings are disabled by default.
+                </p>
+                <p>
+                  The local app uses synthetic data and is not cleared for
+                  real-user production. Licensed sources, chart validation,
+                  provider review, expert quality evaluation and operational
+                  recovery checks remain release gates. Citations do not
+                  establish astrology's predictive validity. The public guide
+                  documents the app; it does not host it.
+                  <a href="https://github.com/sandeshbagmare/astrology-evidence">Explore the source ↗</a>
+                </p>
+              </details>
+              <a href="https://sandeshbagmare.github.io/astrology-evidence/"
+                >Read the project guide <span>↗</span></a
               >
             </div>
           </article>
