@@ -7,7 +7,7 @@ A static, interactive engineering portfolio with an original low-poly Three.js e
 
 ## Stack and features
 - Three.js orthographic scene; GSAP and ScrollTrigger motion; Lenis as the sole smooth-scroll engine.
-- Truck keyboard/button controls, moving clouds, day/night, pause, destination navigation and static poster fallback.
+- Truck keyboard/button controls with hub-and-spoke wheels rotating in proportion to traveled distance, moving clouds, day/night, pause, destination navigation and static poster fallback.
 - PTC experience, public engineering case studies, research DOI links, academic archive, education and profile-reported recognition.
 - Searchable learning drawer uses the 71 public-profile credential records in profile-data.json. Course completion is distinguished from professional certification where applicable.
 - Mobile layout, visible keyboard focus, native accessible dialog and reduced-motion behavior.

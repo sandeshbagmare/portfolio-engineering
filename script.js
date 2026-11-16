@@ -78,15 +78,48 @@ function makeScene() {
   const wheels = [];
   [-1.2, 1.25].forEach((x) =>
     [-0.9, 0.9].forEach((z) => {
-      const w = new THREE.Mesh(
+      const wheel = new THREE.Group();
+      wheel.position.set(x, -0.65, z);
+      const tire = new THREE.Mesh(
         new THREE.CylinderGeometry(0.48, 0.48, 0.25, 16),
         mats.dark,
       );
-      w.rotation.x = Math.PI / 2;
-      w.position.set(x, -0.65, z);
-      w.castShadow = true;
-      truck.add(w);
-      wheels.push(w);
+      tire.rotation.x = Math.PI / 2;
+      tire.castShadow = true;
+      wheel.add(tire);
+      const rim = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.3, 0.3, 0.28, 12),
+        mats.cream,
+      );
+      rim.rotation.x = Math.PI / 2;
+      wheel.add(rim);
+      const hub = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.13, 0.13, 0.3, 10),
+        mats.truck,
+      );
+      hub.rotation.x = Math.PI / 2;
+      wheel.add(hub);
+      for (const side of [-1, 1]) {
+        for (let spoke = 0; spoke < 5; spoke++) {
+          const angle = (spoke / 5) * Math.PI * 2;
+          const bar = new THREE.Mesh(
+            new THREE.BoxGeometry(0.24, 0.055, 0.035),
+            mats.dark,
+          );
+          bar.position.set(
+            Math.cos(angle) * 0.16,
+            Math.sin(angle) * 0.16,
+            side * 0.145,
+          );
+          bar.rotation.z = angle;
+          wheel.add(bar);
+        }
+      }
+      wheel.traverse((part) => {
+        if (part.isMesh) part.castShadow = true;
+      });
+      truck.add(wheel);
+      wheels.push(wheel);
     }),
   );
   // Expedition details: side windows, lights, rack, spare wheel and cargo.
@@ -100,15 +133,6 @@ function makeScene() {
   for (let i = 0; i < 5; i++) {
     box([0.1, 0.08, 1.8], [-0.5 + i * 0.45, 1.6, 0], mats.dark, truck);
   }
-  wheels.forEach((w) => {
-    const hub = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.23, 0.23, 0.28, 12),
-      mats.cream,
-    );
-    hub.rotation.x = Math.PI / 2;
-    hub.position.copy(w.position);
-    truck.add(hub);
-  });
   for (let i = 0; i < 5; i++) {
     const c = new THREE.Group();
     c.position.set(i * 8 - 18, 8 + Math.sin(i) * 1, -4);
@@ -120,7 +144,10 @@ function makeScene() {
   let distance = truck.position.x,
     paused = reduced;
   const drive = (dir) => {
+    const previous = distance;
     distance = Math.max(-6, Math.min(9, distance + dir * 1.3));
+    const travel = distance - previous;
+    if (!travel) return;
     gsap.to(truck.position, {
       x: distance,
       duration: reduced ? 0 : 0.65,
@@ -129,8 +156,9 @@ function makeScene() {
     });
     wheels.forEach((w) =>
       gsap.to(w.rotation, {
-        z: "+=6",
+        z: `+=${travel / 0.48}`,
         duration: reduced ? 0 : 0.65,
+        ease: "power2.out",
         onUpdate: () => renderer.render(scene, camera),
       }),
     );
