@@ -194,6 +194,10 @@ h1 > span {
 .hero-note > a span {
   margin-left: 12px;
 }
+.hero-note > .hero-resume {
+  display: table;
+  margin-top: 14px;
+}
 .landscape {
   position: absolute;
   inset: 25% 0 0;
