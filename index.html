@@ -450,7 +450,7 @@
               >
             </div>
           </article>
-          <article class="project-card trading-card" data-category="systems">
+          <article id="coinswitch-scalping-lab" class="project-card trading-card" data-category="systems">
             <div class="project-visual agent-visual">
               <div class="terminal">
                 <div class="window-dots"><span>coinswitch.scalping.lab</span></div>
@@ -473,6 +473,7 @@
               </p>
               <details>
                 <summary>Architecture &amp; readiness <span>+</span></summary>
+<a href="assets/diagrams/trading-architecture.png" target="_blank" rel="noopener"><img src="assets/diagrams/trading-architecture.svg" alt="CoinSwitch Scalping Lab architecture: deterministic replay and PAPER execution, SQLite ledger, and separate optional AI explanation path" loading="lazy" width="1600" height="1000" style="display:block;width:100%;height:auto;margin:16px 0;border-radius:10px"></a>
                 <p>
                   React dashboard → authenticated FastAPI API → a single writer
                   and SQLite ledger. Replay or bounded REST market snapshots
@@ -493,7 +494,7 @@
               >
             </div>
           </article>
-          <article class="project-card astrology-card" data-category="systems">
+          <article id="astrology-evidence" class="project-card astrology-card" data-category="systems">
             <div class="project-visual sql-visual">
               <div class="privacy-window">
                 <div class="window-dots"><span>astrology.evidence</span></div>
@@ -513,11 +514,12 @@
               </p>
               <details>
                 <summary>Architecture &amp; readiness <span>+</span></summary>
+<a href="assets/diagrams/astrology-architecture.png" target="_blank" rel="noopener"><img src="assets/diagrams/astrology-architecture.svg" alt="Astrology Evidence architecture: FastAPI browser workspaces, PostgreSQL records, Qdrant retrieval, deterministic charts, and bounded LangGraph interpretation" loading="lazy" width="1600" height="1000" style="display:block;width:100%;height:auto;margin:16px 0;border-radius:10px"></a>
                 <p>
-                  Jinja2/HTMX server UI → FastAPI → PostgreSQL for accounts,
+                  Jinja2 server UI with small JavaScript enhancements → FastAPI → PostgreSQL for anonymous workspaces,
                   profiles and application state. Chart calculations stay
                   separate from rights-gated source retrieval through Qdrant
-                  and a bounded reading workflow. Privacy jobs handle retention
+                  and a bounded LangGraph reading workflow. Privacy jobs handle retention
                   and deletion; AI and embeddings are disabled by default.
                 </p>
                 <p>
