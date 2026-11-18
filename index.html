@@ -329,7 +329,7 @@
               >
             </div>
           </article>
-          <article class="project-card sql-card" data-category="infra">
+          <article id="langgraph-sql-checkpoint-saver" class="project-card sql-card" data-category="infra">
             <div class="project-visual sql-visual">
               <div class="checkpoint">
                 <span class="checkpoint-tag">thread_id: a_good_idea</span>
@@ -346,11 +346,11 @@
             </div>
             <div class="project-info">
               <span class="project-kind">Python / LangGraph / SQL</span>
-              <h3>Memory for the journey</h3>
+              <h3>LangGraph SQL checkpoint saver</h3>
               <p>
                 A LangGraph checkpoint saver for SQL Server and Azure SQL.
-                Persistent graph state, pooled connections, and reproducible
-                benchmarks.
+                Save a graph's state by thread ID and read it back after
+                reopening the database connection pool.
               </p>
               <details>
                 <summary>The engineering notes <span>+</span></summary>
@@ -362,6 +362,10 @@
                   and benchmark claims were not rerun for this portfolio.
                 </p>
               </details>
+              <a
+                href="https://github.com/sandeshbagmare/azure-sql-langraph-checkpoint-saver#quick-start"
+                >Try the quickstart <span aria-hidden="true">↗</span></a
+              >
               <a
                 href="https://github.com/sandeshbagmare/azure-sql-langraph-checkpoint-saver"
                 >Explore the source <span>↗</span></a
