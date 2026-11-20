@@ -95,7 +95,7 @@
         <div class="hero-note">
           <p>Agent systems. RAG. Evaluation.<br />Building useful AI.</p>
           <a href="#projects">See what I'm building <span>↙</span></a>
-          <a class="hero-resume" href="assets/Sandesh-Bagmare-Applied-AI-2026-11-17.pdf">Resume PDF <span>↗</span></a>
+          <a class="hero-resume" href="assets/Sandesh-Bagmare-Applied-AI-2026-11-17.pdf?v=20261121">Resume PDF <span>↗</span></a>
         </div>
         <div
           id="landscape"
@@ -166,7 +166,8 @@
             <p>
               That means thinking beyond the model: how agents use tools, what
               they remember, what data they see, and how we know they're
-              working. My public projects explore those questions through Python
+              working. My experience includes LangGraph checkpointing and
+              privacy-aware data handling. My public projects focus on Python
               backends and developer tools.
             </p>
             <p>
@@ -216,9 +217,8 @@
                 <div>
                   <h4>Agentic framework</h4>
                   <p>
-                    Developing a multi-agent proof of concept using LangGraph
-                    and a Plan-and-Act approach for the ThingWorx AI Assistant,
-                    with agent and Agent-to-Agent capabilities.
+                    Building agent workflows using LangGraph, with attention
+                    to reliable execution and state management.
                   </p>
                 </div>
                 <div>
@@ -252,8 +252,8 @@
                 server deployment.
               </p>
               <p>
-                Implemented and presented RAG and agentic AI architecture proofs
-                of concept for the ThingWorx AI Assistant.
+                Worked on retrieval and agent workflows for internal
+                engineering use.
               </p>
             </article>
           </div>
@@ -277,9 +277,7 @@
         </div>
         <div class="filters" role="group" aria-label="Filter selected projects">
           <button data-filter="all" class="active" aria-pressed="true">
-            Everything <span>6</span></button
-          ><button data-filter="infra" aria-pressed="false">
-            Agent infrastructure</button
+            Everything <span>4</span></button
           ><button data-filter="tools" aria-pressed="false">
             Developer tools
           </button><button data-filter="systems" aria-pressed="false">
@@ -288,90 +286,6 @@
         </div>
         <p class="sr-only" id="filter-status" role="status"></p>
         <div class="projects-grid">
-          <article class="project-card privacy-card" data-category="infra">
-            <div class="project-visual privacy-visual">
-              <div class="privacy-window">
-                <div class="window-dots">
-                  <span>privacy.gateway</span>
-                </div>
-                <div class="data-row">
-                  <span>Raw tool response</span><b>•••• •••• ••••</b>
-                </div>
-                <div class="gateway-lock">↳<span>Privacy boundary</span>↴</div>
-                <div class="data-row safe">
-                  <span>Agent context</span><code>{ schema, synthetic }</code>
-                </div>
-              </div>
-              <span class="project-sticker">Mind the boundary.</span>
-            </div>
-            <div class="project-info">
-              <span class="project-kind">Python / MCP / Privacy</span>
-              <h3>DeepAgents Data Privacy</h3>
-              <p>
-                Let tools work with real data. Give agents structure and
-                synthetic examples, through a separate MCP gateway process.
-              </p>
-              <details>
-                <summary>The engineering notes <span>+</span></summary>
-                <p>
-                  Preserves tool interfaces and reconstructs responses,
-                  withholding unsupported content and upstream errors. Stable
-                  field names remain visible; sensitive schemas need an
-                  allowlist. Aggregate and raw passthrough modes explicitly
-                  weaken the default boundary. The repository includes
-                  deterministic demo reports and tests; this site does not run
-                  the gateway.
-                </p>
-              </details>
-              <a
-                href="https://github.com/sandeshbagmare/DeepAgents-Data-Privacy"
-                >Explore the source <span>↗</span></a
-              >
-            </div>
-          </article>
-          <article id="langgraph-sql-checkpoint-saver" class="project-card sql-card" data-category="infra">
-            <div class="project-visual sql-visual">
-              <div class="checkpoint">
-                <span class="checkpoint-tag">thread_id: a_good_idea</span>
-                <div class="checkpoint-line"></div>
-                <div class="checkpoint-labels">
-                  <span>Think</span><span>Act</span><span>Save</span
-                  ><span>Resume</span>
-                </div>
-                <div class="database-block">
-                  <span>≋</span> SQL Server / Azure SQL
-                </div>
-              </div>
-              <span class="project-sticker">Pick up where you left off.</span>
-            </div>
-            <div class="project-info">
-              <span class="project-kind">Python / LangGraph / SQL</span>
-              <h3>LangGraph SQL checkpoint saver</h3>
-              <p>
-                A LangGraph checkpoint saver for SQL Server and Azure SQL.
-                Save a graph's state by thread ID and read it back after
-                reopening the database connection pool.
-              </p>
-              <details>
-                <summary>The engineering notes <span>+</span></summary>
-                <p>
-                  Sync and async persistence, a four-table model, setup and
-                  thread deletion. Explicit T-SQL locking instead of MERGE for
-                  concurrent writes. Published benchmark results use local SQL
-                  Server 2022, not a hosted Azure SQL endpoint. Repository test
-                  and benchmark claims were not rerun for this portfolio.
-                </p>
-              </details>
-              <a
-                href="https://github.com/sandeshbagmare/azure-sql-langraph-checkpoint-saver#quick-start"
-                >Try the quickstart <span aria-hidden="true">↗</span></a
-              >
-              <a
-                href="https://github.com/sandeshbagmare/azure-sql-langraph-checkpoint-saver"
-                >Explore the source <span>↗</span></a
-              >
-            </div>
-          </article>
           <article class="project-card agent-card" data-category="tools">
             <div class="project-visual agent-visual">
               <div class="terminal">
@@ -805,7 +719,7 @@
             >sandeshbagmare2110@gmail.com</a
           >
           <div>
-            <a href="assets/Sandesh-Bagmare-Applied-AI-2026-11-17.pdf">Resume PDF ↗</a>
+            <a href="assets/Sandesh-Bagmare-Applied-AI-2026-11-17.pdf?v=20261121">Resume PDF ↗</a>
             <a href="https://github.com/sandeshbagmare">GitHub ↗</a
             ><a href="https://www.linkedin.com/in/sandeshbagmare/"
               >LinkedIn ↗</a
