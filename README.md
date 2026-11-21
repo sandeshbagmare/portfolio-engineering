@@ -9,7 +9,8 @@ A static, interactive engineering portfolio with an original low-poly Three.js e
 - Three.js orthographic scene; GSAP and ScrollTrigger motion; Lenis as the sole smooth-scroll engine.
 - Truck keyboard/button controls with hub-and-spoke wheels rotating in proportion to traveled distance, moving clouds, day/night, pause, destination navigation and static poster fallback.
 - PTC experience, public engineering case studies, research DOI links, academic archive, education and profile-reported recognition.
-- Four selected projects with category filters and expandable engineering notes, including CoinSwitch Scalping Lab and Astrology Evidence under Applied systems.
+- Six selected projects with category filters and expandable engineering notes. BeltWatch Lab and the JavaScript parser comparison add a video-learning experiment and a reproducible parser study under Engineering research; the existing public apps and developer tools remain.
+- The archive also links the ASGI worker benchmark as a local performance experiment.
 - Searchable learning drawer uses the 71 public-profile credential records in profile-data.json. Course completion is distinguished from professional certification where applicable.
 - Mobile layout, visible keyboard focus, native accessible dialog and reduced-motion behavior.
 
@@ -21,4 +22,7 @@ Employer contributions, education, awards and credential entries are profile-rep
 CoinSwitch Scalping Lab links to its public reading guide; full source remains private. Its React/FastAPI/SQLite app supports replay and read-only-feed PAPER research, with deterministic risk and optional AI outside trade authority. Simulated fills and fees do not demonstrate profit or certify live-account readiness. Astrology Evidence links to its public guide and source: a working local FastAPI/PostgreSQL/Qdrant application with a server-rendered UI and synthetic data. Source rights, chart validation, provider review, expert evaluation and operating gates remain open before real users. Citations do not establish predictive validity. These public guides are documentation, not hosted applications. Their application test suites were not rerun for this portfolio update.
 
 ## Verification and deployment
+
+New project descriptions were checked against their public source and recorded evidence. The linked project benchmarks were not rerun as part of this portfolio update; their stated limits remain visible.
+
 `node --check script.js`; browser QA covers desktop/mobile, filter state, credential search/dialog, reduced motion, pause, night mode and WebGL fallback. Publish the site files only via GitHub Pages (main, root). Do not publish local QA screenshots or research. All project-site paths are relative; canonical/social metadata use the absolute deployed URL.

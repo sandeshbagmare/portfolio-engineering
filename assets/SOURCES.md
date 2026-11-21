@@ -6,3 +6,5 @@
 - `photos/road-trip-field.jpg`: Unsplash contributor photograph, “A long empty road with mountains in the background” (https://unsplash.com/photos/a-long-empty-road-with-mountains-in-the-background-M--vNTPyIK4), downloaded 2026-11-16. Credited with a direct source link beside the image.
 - Space Grotesk and DM Sans: Google Fonts, SIL Open Font License; system sans fallback supplied.
 - Publications use DOI links, not copied paper artwork. No employer logo or private recognition imagery.
+- `projects/beltwatch-preview.png`: the published synthetic-data reference figure from https://sandeshbagmare.github.io/beltwatch-lab/assets/snapshot.png, copied 2026-11-21.
+- `projects/parser-study-preview.png`: screenshot of https://sandeshbagmare.github.io/python-javascript-validation/, captured 2026-11-21. Both project previews show existing published work; they are not new benchmark measurements.

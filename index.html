@@ -50,7 +50,7 @@
       content="https://sandeshbagmare.github.io/portfolio-engineering/social-preview.png"
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="style.css?v=20261116-text-spacing" />
+    <link rel="stylesheet" href="style.css?v=20261121-public-projects" />
     <script defer src="assets/vendor/gsap.min.js"></script>
     <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
     <script defer src="assets/vendor/lenis.min.js"></script>
@@ -277,15 +277,82 @@
         </div>
         <div class="filters" role="group" aria-label="Filter selected projects">
           <button data-filter="all" class="active" aria-pressed="true">
-            Everything <span>4</span></button
+            Everything <span>6</span></button
           ><button data-filter="tools" aria-pressed="false">
             Developer tools
           </button><button data-filter="systems" aria-pressed="false">
             Applied systems
+          </button><button data-filter="research" aria-pressed="false">
+            Engineering research
           </button>
         </div>
         <p class="sr-only" id="filter-status" role="status"></p>
         <div class="projects-grid">
+          <article id="beltwatch-lab" class="project-card research-card" data-category="research">
+            <div class="project-visual project-preview">
+              <img
+                src="assets/projects/beltwatch-preview.png"
+                alt="BeltWatch's generated conveyor clips beside their recorded prediction errors"
+                loading="lazy" width="1200" height="658"
+              />
+            </div>
+            <div class="project-info">
+              <span class="project-kind">Python / PyTorch / Video prediction</span>
+              <h3>BeltWatch Lab</h3>
+              <p>
+                A small video model that learns normal conveyor motion, then
+                scores simulated jams, reversals and debris. Compare five
+                detectors on the same footage in a browser replay.
+              </p>
+              <details>
+                <summary>The experiment and its limits <span>+</span></summary>
+                <p>
+                  A CPU-scale adaptation of LeWorldModel's latent prediction
+                  objective with SIGReg, separate training and calibration
+                  scenes, and a held-out comparison. The fixed-motion baseline
+                  wins on this simulator; real-equipment performance is untested.
+                  Python computes the scores, and the browser replays them.
+                  Source includes regression tests and CI.
+                </p>
+              </details>
+              <a href="https://sandeshbagmare.github.io/beltwatch-lab/"
+                >Try the replay <span>↗</span></a>
+              <a href="https://github.com/sandeshbagmare/beltwatch-lab"
+                >Explore the source <span>↗</span></a>
+            </div>
+          </article>
+          <article id="javascript-parser-comparison" class="project-card research-card" data-category="research">
+            <div class="project-visual project-preview parser-preview">
+              <img
+                src="assets/projects/parser-study-preview.png"
+                alt="The published JavaScript parser comparison article and evidence explorer"
+                loading="lazy" width="1200" height="760"
+              />
+            </div>
+            <div class="project-info">
+              <span class="project-kind">Python / JavaScript / Benchmarking</span>
+              <h3>JavaScript parser comparison</h3>
+              <p>
+                Seven parser approaches compared inside a Python-only container,
+                with a searchable 607-case evidence record and a reproducible
+                Linux research workflow.
+              </p>
+              <details>
+                <summary>The evidence and its limits <span>+</span></summary>
+                <p>
+                  Recorded diagnostics, case provenance and raw results make the
+                  comparison inspectable. Separate checks cover HTML boundaries,
+                  input limits, startup and memory. Submitted programs are
+                  parsed, not run. Findings apply to this corpus, not complete
+                  language conformance or production error rates.
+                </p>
+              </details>
+              <a href="https://sandeshbagmare.github.io/python-javascript-validation/"
+                >Read the study <span>↗</span></a>
+              <a href="https://github.com/sandeshbagmare/python-javascript-validation"
+                >Inspect the evidence source <span>↗</span></a>
+            </div>
+          </article>
           <article class="project-card agent-card" data-category="tools">
             <div class="project-visual agent-visual">
               <div class="terminal">
@@ -518,17 +585,29 @@
         <details class="archive-details">
           <summary>Open the project archive <span>+</span></summary>
           <div class="archive-list">
+            <article id="asgi-worker-benchmark">
+              <span>Python / FastAPI / Performance</span>
+              <h4>ASGI worker benchmark</h4>
+              <p>
+                A runnable comparison of Uvicorn and Gunicorn worker setups
+                across async I/O, blocking I/O and CPU workloads, with a load
+                tester and raw latency records. It is a local experiment, not
+                production capacity evidence; Gunicorn needs Unix, Docker or WSL.
+              </p>
+              <a href="https://github.com/sandeshbagmare/uvicorn-vs-gunicorn"
+                >Inspect the benchmark source <span>↗</span></a>
+            </article>
             <article>
               <span>AI writing / Prototype</span>
               <h4>ConflTechWriter</h4>
               <p>
-                A LangGraph research-to-article prototype with planning, source
-                discovery, drafting and revision loops. FastAPI backend; Next.js
-                frontend is planned. Automated checking and citations assist
-                review, without guaranteeing correctness.
+                A local article-generation prototype with a FastAPI backend,
+                research and search helpers, optional Gemini integration and
+                template fallbacks. The UI and quality checks are still
+                experimental.
               </p>
               <a href="https://github.com/sandeshbagmare/ConflTechWriter"
-                >Explore the prototype source ?</a
+                >Explore the prototype source <span>↗</span></a
               >
             </article>
             <article>

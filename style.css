@@ -472,6 +472,20 @@ h2 em {
   overflow: hidden;
   border-radius: 4px;
 }
+.project-preview {
+  background: #d2dfd9;
+  padding: 24px;
+}
+.project-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.parser-preview {
+  background: #e6d4b7;
+}
 .privacy-visual {
   background: #d8ddcd;
 }
